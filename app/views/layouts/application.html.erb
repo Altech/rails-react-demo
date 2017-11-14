@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsReactDemo</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+  </head>
+
+  <body>
+    <%= render partial: "header" %>
+    <%= yield %>
+
+    <%= javascript_include_tag 'application' %>
+    <% if @hypernova_batch %>
+      <%= javascript_include_tag_from_manifest 'main' %>
+      <%= stylesheet_link_tag_from_manifest 'main' %>
+    <% end %>
+  </body>
+</html>

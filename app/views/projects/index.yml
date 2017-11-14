@@ -1,0 +1,33 @@
+projects:
+  _fields:
+    - title
+    - looking_for
+    - published_at
+    - monthly_support_count
+    - canonical_path
+  image:
+    _fields:
+      - url
+  company:
+    _fields:
+      - name
+      - canonical_path
+    avatar:
+      _fields:
+        - url
+featured_projects:
+  _fields:
+    - title
+    - looking_for
+    - monthly_support_count
+    - canonical_path
+  image:
+    _fields:
+      - url
+  company:
+    _fields:
+      - name
+      - canonical_path
+    avatar:
+      _fields:
+        - url

@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "verbose": false,
+  "execMap": {
+    "ts": "ts-node",
+    "tsx": "ts-node"
+  },
+  "watch": ["frontend/src/", "hypernova.ts"],
+  "ext": "js jsx ts tsx",
+  "ignore": ["*.test.js", "*.test.jsx", "*.test.ts", "*.test.tsx"],
+  "events": {
+    "restart": "echo $FILENAME"
+  }
+}

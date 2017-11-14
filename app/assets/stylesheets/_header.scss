@@ -1,0 +1,33 @@
+#global-header {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+#global-nav {
+  .nav-items {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-item {
+    list-style: none;
+  }
+  .nav-item-logo {
+    margin: 0 7px 0 0;
+  }
+  .nav-item-text {
+    font-size: 14px;
+    font-weight: 500;
+    a {
+      display: block;
+      line-height: 1;
+      padding: 23px 14px;
+      color: #45494b;
+      text-decoration: none;
+    }
+  }
+  .logo {
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+  }
+}

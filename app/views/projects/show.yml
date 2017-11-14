@@ -1,0 +1,24 @@
+project:
+  _fields:
+    - title
+    - looking_for
+    - published_on
+    - page_view
+    - monthly_support_count
+    - candidate_count
+    - canonical_path
+    - description
+    - why_description
+    - what_description
+    - how_description
+    - location
+  image:
+    _fields:
+      - url
+  company:
+    _fields:
+      - name
+      - canonical_path
+    avatar:
+      _fields:
+        - url
